@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/IbanezJem7vSBL/skip-this-ad/issues"
   },
-  "homepage": "https://github.com/IbanezJem7vSBL/skip-this-ad"
+  "homepage": "https://github.com/IbanezJem7vSBL/skip-this-ad",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.8.0",
+    "express": "~3.4.7",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-express-server": "~0.4.11"
+  }
 }
