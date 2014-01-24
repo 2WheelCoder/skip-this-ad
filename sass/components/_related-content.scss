@@ -1,0 +1,24 @@
+.related-content {
+	@extend %clearfix;
+
+	border-top: $borderWidth $borderStyle $borderColor;
+	clear: both;
+	padding-top: 1em;
+
+	li {
+		display: block;
+		float: left;
+		list-style: none;
+		margin-right: 4%;
+		width: 22%;
+
+		&:nth-child(4n) {
+			margin-right: 0;
+		}
+	}
+
+	h2 {
+		font-size: 1em;
+		font-weight: 500;
+	}
+}

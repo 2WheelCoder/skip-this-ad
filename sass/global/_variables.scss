@@ -1,0 +1,53 @@
+/**
+ * @file
+ * bootstrap/_variables.scss
+ * Defines the common breakpoint, mixins used throughout the site.
+ */
+
+//
+// Variables
+//
+
+/**
+ * Provides a naming structure for bold/selective design/responsive
+ * breakpoints.
+ * 
+ * @usage:
+ *   bootstrap/_respond-to.scss
+ * @suggestion:
+ *   layouts/layout-{variable}.scss - for consistency
+ */
+// $small: 480px;
+// $medium: 720px;
+// $large: 960px;
+
+// Colors
+$green: #6eb844;
+$lightGreen: #66cc33;
+$darkGreen: #4c803b;
+$blue: #0099ff;
+$black: #333333;
+$grey: #999999;
+$lightGrey: #cccccc;
+$white: #fff;
+
+// Layout
+$pageWidth: 58.75em;
+
+// Text
+$bodyFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingFont: "museo-slab", sans-serif;
+
+$contentHeadingFontSize: 2.25em;
+$contentHeadingMarginBottom: 1em;
+$contentHeadingColor: $black;
+
+$contentPFontSize: 1em;
+$contentPLineHeight: 1.2;
+$contentPMarginBottom: 1.25em;
+$contentPColor: $black;
+
+// Borders
+$borderWidth: 1px;
+$borderStyle: solid;
+$borderColor: $grey;

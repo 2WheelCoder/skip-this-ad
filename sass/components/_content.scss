@@ -1,0 +1,48 @@
+.content {
+	// border-right: $borderWidth $borderStyle $borderColor;
+}
+
+.views {
+	color: $blue;
+	display: inline-block;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 0 1em 0 0;
+
+	// &:after {
+	// 	@include rotate(45deg);
+	// 	border-left: $borderWidth $borderStyle $borderColor;
+	// 	content: " ";
+	// }
+}
+
+.tags {
+	display: inline-block;
+	vertical-align: 0.75em;
+
+	li {
+		@include rotate(-20deg);
+
+		background: url(../img/green-circle.png) no-repeat;
+		color: $white;
+		display: inline-block;
+		font-weight: bold;
+		height: 38px;
+		list-style: none;
+		margin-right: 1em;
+		padding: 21px 0 0 0;
+		text-align: center;
+		text-transform: uppercase;
+		width: 59px;
+	}
+}
+
+.spokesperson {
+	float: left;
+}
+
+.copy {
+	float: right;
+	font-weight: 300;
+	width: 34.75em;
+}

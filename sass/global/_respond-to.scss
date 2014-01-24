@@ -1,0 +1,44 @@
+/**
+ * @file
+ * bootstrap/_respond-to.scss
+ * Defines the common breakpoint, mixins used throughout the site.
+ */
+
+/**
+ *! Provides a
+ *
+ *! @param $primary
+ *!   .
+ *! @param $secondary
+ *!   .
+ */
+@mixin respond-to($primary, $secondary:min-width) {
+  @if $secondary == max-width {
+    @media screen and (max-width: $primary - 1) { @content; }
+  }
+  @else if $secondary == min-width {
+    @media screen and (min-width: $primary) { @content; }
+  }
+  @else {
+    @media screen and (min-width: $primary) and (max-width: $secondary - 1) { @content; }
+  }
+}
+
+// Usage
+
+/*
+@include respond-to(500px) { //min-width is default
+}
+
+@include respond-to(800px, max-width) {
+}
+
+@include respond-to(500px, 800px) {
+}
+
+@include respond-to($small) {
+}
+
+@include respond-to($upto-medium) {
+}
+*/

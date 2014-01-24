@@ -1,0 +1,41 @@
+.gallery {
+	@extend %clearfix;
+	float: right;
+	width: 34.75em;
+}
+
+.arrow {
+	background: $black;
+	display: inline-block;
+	float: left;
+	height: 22.25em;
+	width: 15%;
+}
+
+.arrow-left {
+	background: $black url(../img/arrow.png) no-repeat center;
+}
+
+.arrow-right {
+	@include rotate(180deg);
+
+	background: $black url(../img/arrow.png) no-repeat center;
+}
+
+.gallery-content {
+	background: lighten($black, 5%);
+	float: left;
+	height: 22.25em;
+	text-align: center;
+	width: 70%;
+
+	img {
+		width: 80%;
+	}
+
+	p {
+		color: $white;
+		font-weight: 300;
+		margin: 0;
+	}
+}

@@ -26,15 +26,28 @@ module.exports = function(grunt) {
       }
     },
 
+    compass: {
+      dist: {
+        options: {
+          config: 'config.rb',
+          force: true
+        }
+      }
+    },
+
     watch: {
-      files: ['<%= jshint.files %>'],
-      tasks: ['jshint'],
+      files: ['<%= jshint.files %>', 'sass/*.scss'],
+      tasks: ['jshint', 'compass'],
       express: {
         files:  [ 'index.js' ],
         tasks:  [ 'express:dev' ],
         options: {
-          spawn: false // Without this option specified express won't be reloaded
+          spawn: false
         }
+      },
+      compass: {
+        files: ['sass/**/*.{scss,sass}'],
+        tasks: ['compass']
       }
     }
   });

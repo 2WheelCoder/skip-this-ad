@@ -1,0 +1,26 @@
+.infinite-ads {
+	@extend %clearfix;
+
+	clear: both;
+
+	.block-ad {
+		margin-right: 1em;
+
+		&:nth-child(4n) {
+			margin-right: 0;
+		}
+	}
+}
+
+.block-ad {
+	display: block;
+	float: left;
+	margin: 0 0 1em;
+
+	a {
+		background: url(../img/block-ad.jpg);
+		display: block;
+		height: 183px;
+		width: 220px;
+	}
+}

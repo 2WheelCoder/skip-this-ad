@@ -1,0 +1,44 @@
+.social-links {
+	display: inline-block;
+	margin-left: 1%;
+	vertical-align: top;
+	width: 24%;
+
+	p {
+		color: $grey;
+		display: inline-block;
+		float: right;
+		font-family: $headingFont;
+		font-size: 0.8em;
+		margin-bottom: 0;
+	}
+	
+	ul {
+		float: right;
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		display: block;
+		height: 51px;
+		width: 51px;
+	}
+}
+
+.fb {
+	margin-right: 1.125em;
+
+	a {
+		background: url(../img/fb.png);
+	}
+}
+
+.twitter {
+	a {
+		background: url(../img/twitter.png);
+	}
+}

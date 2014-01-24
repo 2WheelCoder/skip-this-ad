@@ -1,0 +1,20 @@
+.search-form {
+	h1 {
+		@extend %visually-hidden;
+	}
+
+	input[type=text] {
+		border: $borderWidth $borderStyle $borderColor;
+		margin-right: 2%;
+		padding: 0.6em 2%;
+		width: 66%;
+	}
+
+	button {
+		background: transparent;
+		border: $borderWidth $borderStyle $borderColor;
+		padding: 0.6em 2%;
+		text-transform: uppercase;
+		width: 25%;
+	}
+}

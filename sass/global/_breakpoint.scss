@@ -1,0 +1,34 @@
+/**
+ * Some defaults leveraging this breakpoints mixin.
+ */
+
+@mixin breakpoint($point) {
+	@if $point == mobile {
+		@media only screen and (min-width: 320px) {
+			$zen-column-count: 2;
+			$zen-gutter-width: 0;
+			@content;
+		}
+	}
+	@if $point == mobile-max {
+		@media only screen and (max-width: 768px) {
+			$zen-column-count: 2;
+			$zen-gutter-width: 0;
+			@content;
+		}
+	}
+	@if $point == tablet {
+		@media only screen and (min-width: 768px) {
+			$zen-column-count: 12;
+			$zen-gutter-width: 0;
+			@content;
+		}
+	}
+	@if $point == desktop {
+		@media only screen and (min-width: 960px) {
+			$zen-column-count: 12;
+			$zen-gutter-width: 0;
+			@content;
+		}
+	}
+}

@@ -23,6 +23,8 @@
     "grunt-contrib-jshint": "~0.8.0",
     "express": "~3.4.7",
     "load-grunt-tasks": "~0.2.1",
-    "grunt-express-server": "~0.4.11"
+    "grunt-express-server": "~0.4.11",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-compass": "~0.7.0"
   }
 }
