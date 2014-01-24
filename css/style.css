@@ -367,15 +367,19 @@ header .logo {
   padding: 0.4em;
 }
 /* line 58, ../sass/components/_overlay.scss */
-.email button {
+.email a {
   background: #66cc33;
   border: 0;
   color: white;
+  display: inline-block;
   font-weight: 300;
-  padding: 0.4em;
+  font-size: 0.8em;
+  padding: 0.3em 0.6em;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
-/* line 67, ../sass/components/_overlay.scss */
+/* line 71, ../sass/components/_overlay.scss */
 .next {
   bottom: 0.4em;
   color: white;
@@ -384,6 +388,17 @@ header .logo {
   position: absolute;
   right: 2em;
   text-decoration: none;
+}
+
+/* line 80, ../sass/components/_overlay.scss */
+.email-form {
+  float: left;
+}
+
+/* line 84, ../sass/components/_overlay.scss */
+.account-form {
+  width: 45%;
+  float: right;
 }
 
 /* Layout */
