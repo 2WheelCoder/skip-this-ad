@@ -329,6 +329,53 @@ header .logo {
 }
 
 /* line 24, ../sass/components/_overlay.scss */
+.overlay-welcome {
+  font-family: "museo-slab", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* line 31, ../sass/components/_overlay.scss */
+.overlay-logo {
+  width: 35%;
+}
+
+/* line 35, ../sass/components/_overlay.scss */
+.overlay-copy {
+  font-family: "museo-slab", sans-serif;
+  text-align: left;
+}
+
+/* line 40, ../sass/components/_overlay.scss */
+.email {
+  text-align: left;
+}
+/* line 43, ../sass/components/_overlay.scss */
+.email label {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+/* line 48, ../sass/components/_overlay.scss */
+.email label:after {
+  content: ":";
+}
+/* line 53, ../sass/components/_overlay.scss */
+.email input {
+  border: 0;
+  padding: 0.4em;
+}
+/* line 58, ../sass/components/_overlay.scss */
+.email button {
+  background: #66cc33;
+  border: 0;
+  color: white;
+  font-weight: 300;
+  padding: 0.4em;
+}
+
+/* line 67, ../sass/components/_overlay.scss */
 .next {
   bottom: 0.4em;
   color: white;

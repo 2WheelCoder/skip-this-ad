@@ -21,6 +21,49 @@
 	width: 48%;
 }
 
+.overlay-welcome {
+	font-family: $headingFont;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin: 0;
+}
+
+.overlay-logo {
+	width: 35%;
+}
+
+.overlay-copy {
+	font-family: $headingFont;
+	text-align: left;
+}
+
+.email {
+	text-align: left;
+
+	label {
+		display: block;
+		font-size: 0.9em;
+		font-weight: 300;
+
+		&:after {
+			content: ":";
+		}
+	}
+
+	input {
+		border: 0;
+		padding: 0.4em;
+	}
+
+	button {
+		background: $lightGreen;
+		border: 0;
+		color: $white;
+		font-weight: 300;
+		padding: 0.4em;
+	}
+}
+
 .next {
 	bottom: 0.4em;
 	color: $white;
