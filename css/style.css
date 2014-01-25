@@ -26,7 +26,7 @@
  * 
  */
 /* line 2, ../sass/global/extends/_clearfix.scss */
-.gallery:after, .infinite-ads:after, .related-content:after, .content:after, .page-footer:after {
+.gallery:after, .infinite-ads:after, .search-form:after, .related-content:after, .content:after, .page-footer:after {
   content: "";
   display: table;
   clear: both;
@@ -184,6 +184,16 @@ header .logo {
   width: 34.75em;
 }
 
+/* line 50, ../sass/components/_content.scss */
+.twitter-share-button {
+  margin: 0.8em 0.6em 0.8em 0;
+}
+
+/* line 54, ../sass/components/_content.scss */
+.fb-share-button {
+  vertical-align: 1.2em;
+}
+
 /* line 1, ../sass/components/_gallery.scss */
 .gallery {
   float: right;
@@ -198,13 +208,17 @@ header .logo {
   height: 22.25em;
   width: 15%;
 }
+/* line 14, ../sass/components/_gallery.scss */
+.arrow:hover {
+  background-color: #4d4d4d;
+}
 
-/* line 15, ../sass/components/_gallery.scss */
+/* line 19, ../sass/components/_gallery.scss */
 .arrow-left {
   background: #333333 url(../img/arrow.png) no-repeat center;
 }
 
-/* line 19, ../sass/components/_gallery.scss */
+/* line 23, ../sass/components/_gallery.scss */
 .arrow-right {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -214,7 +228,7 @@ header .logo {
   background: #333333 url(../img/arrow.png) no-repeat center;
 }
 
-/* line 25, ../sass/components/_gallery.scss */
+/* line 29, ../sass/components/_gallery.scss */
 .gallery-content {
   background: #404040;
   float: left;
@@ -222,11 +236,11 @@ header .logo {
   text-align: center;
   width: 70%;
 }
-/* line 32, ../sass/components/_gallery.scss */
+/* line 36, ../sass/components/_gallery.scss */
 .gallery-content img {
   width: 80%;
 }
-/* line 36, ../sass/components/_gallery.scss */
+/* line 40, ../sass/components/_gallery.scss */
 .gallery-content p {
   color: white;
   font-weight: 300;
@@ -260,20 +274,32 @@ header .logo {
   width: 220px;
 }
 
-/* line 6, ../sass/components/_search.scss */
+/* line 1, ../sass/components/_search.scss */
+.search-form {
+  margin: 0 0 1em;
+}
+/* line 10, ../sass/components/_search.scss */
 .search-form input[type=text] {
   border: 1px solid #999999;
   margin-right: 2%;
+  outline: none;
   padding: 0.6em 2%;
-  width: 66%;
+  width: 160px !important;
 }
-/* line 13, ../sass/components/_search.scss */
+/* line 18, ../sass/components/_search.scss */
 .search-form button {
   background: transparent;
   border: 1px solid #999999;
+  float: right;
+  margin: 0;
   padding: 0.6em 2%;
   text-transform: uppercase;
   width: 25%;
+}
+/* line 28, ../sass/components/_search.scss */
+.search-form .text-core {
+  float: left;
+  width: 160px;
 }
 
 /* line 1, ../sass/components/_related-content.scss */
@@ -298,6 +324,11 @@ header .logo {
 .related-content h2 {
   font-size: 1em;
   font-weight: 500;
+}
+/* line 25, ../sass/components/_related-content.scss */
+.related-content a {
+  color: #333333;
+  text-decoration: none;
 }
 
 /* line 1, ../sass/components/_overlay.scss */
