@@ -267,11 +267,20 @@ header .logo {
   margin: 0 0 1em;
 }
 /* line 20, ../sass/components/_ads.scss */
+.block-ad:nth-child(4n+1) {
+  clear: left;
+}
+/* line 24, ../sass/components/_ads.scss */
 .block-ad a {
   background: url(../img/block-ad.jpg);
   display: block;
   height: 183px;
   width: 220px;
+}
+/* line 31, ../sass/components/_ads.scss */
+.block-ad img {
+  cursor: pointer;
+  max-width: 13.75em;
 }
 
 /* line 1, ../sass/components/_search.scss */
