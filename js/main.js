@@ -58,14 +58,18 @@
 	});
 
 	$('.back').click(function(evt) {
-		evt. preventDefault();
+		evt.preventDefault();
 
 		history.go(-1);
 	});
 
 	$('#overlay-dunkin').click(function(evt) {
-		evt. preventDefault();
+		window.location.href = 'http://skipthisad.net/gif-2.html#content';
+	});
 
-		window.location.href = 'http://skipthisad.net/gif-2.html';
+	$('#overlay-final-button').click(function(evt) {
+		evt.preventDefault();
+
+		$('#overlay-final').hide();
 	});
 })();

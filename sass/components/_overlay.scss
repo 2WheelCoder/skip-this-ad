@@ -54,18 +54,6 @@
 		border: 0;
 		padding: 0.4em;
 	}
-
-	a {
-		background: $lightGreen;
-		border: 0;
-		color: $white;
-		display: inline-block;
-		font-weight: 300;
-		font-size: 0.8em;
-		padding: 0.3em 0.6em;
-		text-decoration: none;
-		vertical-align: middle;
-	}
 }
 
 .next {
@@ -88,4 +76,25 @@
 
 .overlay-ad {
 	margin: 2em 0 0;
+}
+
+.overlay-button {
+	background: $lightGreen;
+	border: 0;
+	color: $white;
+	display: inline-block;
+	font-weight: 300;
+	font-size: 0.8em;
+	padding: 0.3em 0.6em;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.overlay-final {
+	.overlay-button {
+		clear: both;
+		display: block;
+		margin: 1em auto;
+		width: 4em;
+	}
 }
