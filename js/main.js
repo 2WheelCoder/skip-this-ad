@@ -47,4 +47,13 @@
             { result : textext.itemManager().filter(list, query) }
         );
     });
+
+	var content = $('#infinite-content').html(),
+		$window = $(window);
+
+	$window.scroll(function() {
+		if($window.scrollTop() + $window.height() == $(document).height()) {
+			$('#infinite-ads').append(content);
+		}
+	});
 })();
