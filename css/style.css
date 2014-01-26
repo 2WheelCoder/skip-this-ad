@@ -369,12 +369,13 @@ header .logo {
   height: 100%;
   left: 0;
   position: fixed;
+  text-align: center;
   top: 0;
   width: 100%;
   z-index: 10;
 }
 
-/* line 11, ../sass/components/_overlay.scss */
+/* line 12, ../sass/components/_overlay.scss */
 .overlay-content {
   -webkit-border-radius: 2em;
   -moz-border-radius: 2em;
@@ -386,7 +387,6 @@ header .logo {
   left: 20%;
   padding: 2em 6%;
   position: fixed;
-  text-align: center;
   top: 10em;
   width: 48%;
 }
@@ -462,6 +462,11 @@ header .logo {
 .account-form {
   width: 45%;
   float: right;
+}
+
+/* line 89, ../sass/components/_overlay.scss */
+.overlay-ad {
+  margin: 2em 0 0;
 }
 
 /* Layout */

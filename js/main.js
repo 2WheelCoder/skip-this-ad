@@ -62,4 +62,10 @@
 
 		history.go(-1);
 	});
+
+	$('#overlay-dunkin').click(function(evt) {
+		evt. preventDefault();
+
+		window.location.href = 'http://skipthisad.net/gif-2.html';
+	});
 })();
