@@ -56,4 +56,10 @@
 			$('#infinite-ads').append(content);
 		}
 	});
+
+	$('.back').click(function(evt) {
+		evt. preventDefault();
+
+		history.go(-1);
+	});
 })();

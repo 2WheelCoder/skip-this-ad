@@ -194,6 +194,18 @@ header .logo {
   vertical-align: 1.2em;
 }
 
+/* line 58, ../sass/components/_content.scss */
+.back {
+  color: #0099ff;
+  display: block;
+  margin: 0 0 1em;
+  text-decoration: none;
+}
+/* line 64, ../sass/components/_content.scss */
+.back:hover {
+  text-decoration: underline;
+}
+
 /* line 1, ../sass/components/_gallery.scss */
 .gallery {
   float: right;
@@ -309,6 +321,17 @@ header .logo {
 .search-form .text-core {
   float: left;
   width: 160px;
+}
+
+/* line 34, ../sass/components/_search.scss */
+.search-term {
+  color: #6eb844;
+}
+
+/* line 39, ../sass/components/_search.scss */
+.search-results h2 {
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 /* line 1, ../sass/components/_related-content.scss */

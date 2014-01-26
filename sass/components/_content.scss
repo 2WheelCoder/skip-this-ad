@@ -54,3 +54,14 @@
 .fb-share-button {
 	vertical-align: 1.2em;
 }
+
+.back {
+	color: $blue;
+	display: block;
+	margin: 0 0 1em;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
