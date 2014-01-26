@@ -72,4 +72,10 @@
 
 		$('#overlay-final').hide();
 	});
+
+	$('.banner-ad').click(function(evt) {
+		evt.preventDefault();
+
+		alert('Hey, look! Gullable is written on the ceiling.');
+	});
 })();
